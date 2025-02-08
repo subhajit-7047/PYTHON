@@ -1,2 +1,2 @@
 # This is PYTHON PROGRAMING Repo.
-Auther - Subhajit Kumar Roy
+Author - Subhajit Kumar Roy
