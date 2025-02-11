@@ -33,7 +33,7 @@ print("world")
 # in one line in help of end='' patameter => it exist end  by defualt end='\n' thats why automatically it print next line .
 print("hello",end=' ')
 print("world")
-#outpur
+#output
 #hello world
 
 

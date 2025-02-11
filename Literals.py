@@ -32,8 +32,8 @@ print(type(var_1))
 
 # (ii)Float Literals
 f1 = 10.5
-f2 = 1.5e2
-f3 = 1.5e-3
+f2 = 1.5e2 #1.5*10^2
+f3 = 1.5e-3  #1.5*10^-3
 print(f1, f2, f3)
 #output
 #10.5 150.0 0.0015
@@ -56,6 +56,7 @@ print(char)
 #output
 #This is Python
 #This is Python
+#c
   
 
 #when multiple string value(literals)
