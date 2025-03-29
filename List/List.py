@@ -2,6 +2,7 @@
 #A mutable list is a type of data structure that allows you to modify its elements after the list has been created. This means you can add, remove, or change items within the list without creating a new list. 
 # list will be Homogeneous and Heterogeneous( same and different data type in a one list)
 ##Dynamicly memory allocatin in list
+#list is mutable
 
     #1.Create
     #2.Access

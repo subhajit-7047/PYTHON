@@ -232,4 +232,138 @@ str1 ="He's name is Dan. Dan is an honest man."
 print(str1.title())
 # Output:
 # He'S Name Is Dan.dan Is An Honest Man
-#<|=======================================|>
+#------------------------------
+#print-
+print("Hello World")
+# Hello World
+#-------------------------
+#input-
+input("Enter your name: ")
+# Enter your name: Saurabh Singh Dhami
+# 'Saurabh Singh Dhami'
+#-------------------------
+# type-
+a = 3
+type(a)
+# int
+a = 3.5
+type(a)
+# float
+a = True
+type(a)
+# bool
+#----------------------------
+#int etc.
+int('5')
+# float
+# str
+# list
+# tuple
+# 5
+#------------------------------
+# abs->Return the absolute value of the argument
+abs(4)
+# 4
+abs(-4)
+# 4
+#-----------------------
+#pow-> 
+pow(2, 3)
+# 8
+pow(2, -3)
+# 0.125
+#----------------------
+#min/max->return its smallest item/return its biggest item.
+min([2, 1, 3, 0])
+# 0
+max([2, 1, 3, 0])
+# 3
+min("kolkata")
+# 'a' ->basis of unicode 
+max("kolkata")
+# 't' ->basis of unicode
+#------------------
+#round-Round a number to a given precision in decimal digits
+c = 22/7
+print(c)
+round(c)
+# 3.142857142857143
+# 3
+round(c, 2)
+# 3.14
+#----------------------
+# divmod->Return the tuple (x//y, x%y). Invariant: div*y + mod == x.
+divmod(5, 2)
+# (2, 1)
+#-------------------------
+#bin/oct/hex->Return the binary representation of an integer/Return the octal representation of an integer./Return the hexadecimal representation of an integer.
+bin(4)
+'0b100'
+oct(4)
+'0o4'
+hex(4)
+'0x4'
+#---------------------------
+#id->Return the identity of an object.
+
+"""This is guaranteed to be unique among simultaneously existing objects.
+(CPython uses the object's memory address.)"""
+a = 3
+id(a)
+# 2390799640944
+#--------------------
+# ord->Return the Unicode code point for a one-character string.
+ord('A')
+# 65
+ord('a')
+# 97
+#------------------------
+#len
+len('Kolkata')
+# 7
+len([1, 2, 3])
+# 3
+#-----------------------------
+#sum->Return the sum of a 'start' value (default: 0) plus an iterable of numbers
+
+"""When the iterable is empty, return the start value.
+This function is intended specifically for use with numeric values and may
+reject non-numeric types."""
+sum([1, 2, 3, 4, 5])
+# 15
+sum({1, 2, 3, 4, 5})
+# 15
+#--------------------------
+#help
+help('print')
+#output:
+
+"""Help on built-in function print in module builtins:
+
+print(...)
+    print(value, ..., sep=' ', end='\n', file=sys.stdout, flush=False)
+    
+    Prints the values to a stream, or to sys.stdout by default.
+    Optional keyword arguments:
+    file:  a file-like object (stream); defaults to the current sys.stdout.
+    sep:   string inserted between values, default a space.
+    end:   string appended after the last value, default a newline.
+    flush: whether to forcibly flush the stream.
+"""
+#-------------------------
+words = ["Hello", "world", "from", "Python"]
+joined_string = " ".join(words)  # Using a space as the separator
+print(joined_string)  # Output: "Hello world from Python"
+
+letters = ["A", "B", "C"]
+joined_letters = "-".join(letters)  # Using a hyphen as the separator
+print(joined_letters)  # Output: "A-B-C"
+
+tuple_of_strings = ("Python", "is", "fun")
+result = " ".join(tuple_of_strings)
+print(result)  # Output: "Python is fun"
+
+mixed_list = ["I", "have", 3, "apples"]
+result = " ".join(map(str, mixed_list))  # Convert integers to strings
+print(result)  # Output: "I have 3 apples"
+

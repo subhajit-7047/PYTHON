@@ -7,7 +7,7 @@ print(L)
 
 text="welcome to my profile"
 splited_text=text.split('o') #split this are where will be  'o'
-
+print(splited_text)
 #output
 #['welc', 'me t', ' my pr', 'file']
 
