@@ -34,7 +34,7 @@ if height>=3:
     if age<=12:
         print("you pay 150 rs.")
     elif age<=18:
-        print("you pAY 200 rs.")
+        print("you pay 200 rs.")
     else:
         print("you pay 500 rs.")
 else:
@@ -69,4 +69,7 @@ elif email=="subha@gmail.com" and password!="1234":
 else:
     print("password and email is incorrect.")
     
-    
+
+#----------------------------------
+
+

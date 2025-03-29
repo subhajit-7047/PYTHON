@@ -1,6 +1,9 @@
 ##Input function by defualt return string --->>
 #This called a prompt
-# input(prompr="what is ypour name?")
+# input(prompt="what is your name?")
+a= input()
+print(a)
+#subhajit
 
 
 input(" what is your name: ")
@@ -10,7 +13,7 @@ input(" what is your name: ")
 #in this case input funtion ist work then print(run) hello->
 print( " Hello" + " " + input("what is your name: "))
 
-input("what is y0ur name? ")
+input("what is your name? ")
 
 #concatenate string
 print(" Hey subhajit, " + " "+ "How are you?")
@@ -39,7 +42,7 @@ length=len(Name)
 print(length)
 
 #TypeError: unsupported operand type(s) for +: 'int' and 'str'
-#data type error integer and string do't added:
+#data type error integer and string don't added:
 #not concatenation
 
 

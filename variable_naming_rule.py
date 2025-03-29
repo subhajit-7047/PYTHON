@@ -1,4 +1,4 @@
-#### Dynamic Typing -->> when in python create a variable(no data-ype declaration) that why it is dynamic typing..
+#### Dynamic Typing -->> when in python create a variable(no data-type declaration) that why it is dynamic typing..
 #example: name = "subha"
 #age=18
 
@@ -65,7 +65,7 @@ age=input("what is your age")
 # Example:
 #  
 # camal case:
-#  in case 1st sentence(my) is small and --> then the word only 1st word is uppercase(Name):
+#  in case 1st sentence(my) is small and --> then the  only 1st word is uppercase(Name):
 # EX: 1.myName 2. myVariableName
 
 #pascal case:

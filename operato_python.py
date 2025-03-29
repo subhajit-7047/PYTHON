@@ -33,11 +33,11 @@ print(x / y)
 #o/p :2.5
 print(x % y)
 #o/p :1
-print( x ** y)
+print( x ** y) #5^2=25
 #o/p :25
 
 #This operator-- This called integer division :
-# 1st it will covert other  data-type to integer like-- float ---> int , etc.
+# 1st it will convert other  data-type to integer like-- float ---> int , etc.
  # also called flow division 
 print(x // y)
 #o/p : 2   (5/2=2.5 but it genarate in int value)
@@ -139,7 +139,7 @@ print(a)
 #Identity Operators
 
 #It depend on memory location ==> when memory location are same  then it is true;
-#check the id of boject (object means=a,b...)
+#check the id of object (object means=a,b...)
 # => print(id(a))
 # a=4
 # b=5

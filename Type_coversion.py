@@ -11,7 +11,7 @@ print(result)
 #output
 #frist_num=40
 #second_num=6
-#406  because concatenate two string(Ex: subhajit + roy= subhajitroy ,34+35=3435)
+#406  because concatenate two string(Ex: subhajit + roy= subhajitroy ,34+35=3435(as string))
 
 #for number it is wrong because no addition in two number
 #___________________________________________________________________________
@@ -122,8 +122,8 @@ print(result)
 
 #example of code::
 #It is best beacuse(For mathematical opertion) always input are genarate int -- Then after  not use this function--
-frist_num=int(input("Enetr 1st number:") )#input return as a str
-second_num=int(input("Enetr 2nd number:"))#input return as a str
+frist_num=int(input("Enetr 1st number:") )#input return as a int
+second_num=int(input("Enetr 2nd number:"))#input return as a int
 
 result=(frist_num)+(second_num)
 print(result)
@@ -137,8 +137,8 @@ print(result)
 
 number=input('Enter two number:') #12345
 
-frist_num=number[0]#only access 1 
-second_num=number[1]# only access 2
+frist_num=number[0] #only access 1 
+second_num=number[1] # only access 2
 
 print(frist_num+ second_num)#by default frist and second num is string type -->
 #output #12

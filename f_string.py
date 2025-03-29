@@ -2,7 +2,7 @@ name="subhajit"
 age=19
 height=1.6
 
-#normal parint one line
+#normal print one line
 print("my name is " + name,"i am "+str(age),"year old")
 #o/p: my name is subhajit i am 19 year old
 
